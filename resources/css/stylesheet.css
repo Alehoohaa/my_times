@@ -41,5 +41,8 @@ li{
   display: inline-block;
 }
 
+nav a{
+  color: black;
+}
 nav a:hover {
  color: lightgrey;

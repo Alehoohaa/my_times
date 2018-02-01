@@ -20,7 +20,7 @@ header{
 }
 .logo span{
   color: mediumAquamarine;
-
+  padding-left: 20px;
 }
 .logo span{
   padding-left: 20px;
@@ -29,6 +29,7 @@ header{
 header nav{
   padding-right: 40px;
   display: flex;
+  color: black;
 
 }
 nav span{

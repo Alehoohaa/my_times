@@ -52,7 +52,7 @@ nav a:hover {
 .container{
   width: 1266px;
   display: flex;
-  margin: 0 auto 78px auto;
+  margin: 0 auto 80px auto;
   padding-top: 120px;
 
 }
@@ -61,11 +61,12 @@ nav a:hover {
   flex-direction: column;
   margin-right:  32px;
   border: 2px solid black;
-
 }
+
 
 .column.large {
   width: 630px;
+  display: flex;
 }
 
 .column.medium {
@@ -75,10 +76,59 @@ nav a:hover {
     width: 240px;
 
 }
-.story {
-  border: 1px solid black;
+
+.story{
+  display: inline-flex;
+  flex-direction:column;
+  justify-content: space-around;
+  margin-right:  32px;
+  width: 300px;
 }
 
-.cookie {
-  background-image:url("../images/cookie.png");
+p .story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
+
+.stories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mainStory.content-image{
+  background-image: url("../images/main story.png");
+  height:300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+
+}
+.content-image{
+  display: flex;
+  font-family: Georgia;
+
+
+
+}
+.fallSeason.content-image{
+  background-image: url("../images/fall season.png");
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+}
+.cat{
+  background-image: url("../images/cat ceo.png");
+  height:300px;
+  text-align: center;

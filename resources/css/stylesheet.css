@@ -1,4 +1,5 @@
 body { margin: 0 }
+
 header{
    display: flex;
    align-items: center;
@@ -41,13 +42,26 @@ nav span{
 li{
   display: inline-block;
 }
-
 nav a{
   color: black;
 }
 nav a:hover {
  color: lightgrey;
 
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+.newsBites h3 {
+    margin-bottom: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
 }
 .container{
   width: 1266px;
@@ -60,37 +74,33 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   margin-right:  32px;
-  border: 2px solid black;
 }
-
-
 .column.large {
   width: 630px;
   display: flex;
 }
-
 .column.medium {
   width: 300px;
+  display:flex;
 }
 .column.small {
-    width: 240px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+
 
 }
-
 .story{
   display: inline-flex;
   flex-direction:column;
-  justify-content: space-around;
   margin-right:  32px;
   width: 300px;
 }
-
 p .story{
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
-
 .stories{
   display: flex;
   flex-direction: row;
@@ -103,9 +113,6 @@ p .story{
   font-weight: bold;
   font-size: 40px;
   color: white;
-}
-
-
 }
 .content-image{
   display: flex;
@@ -126,9 +133,76 @@ p .story{
   justify-content: center;
 
 }
+.hipster.content-image{
+  background-image: url("../images/hipster.png");
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cat.content-image{
+  background-image: url("../images/cat ceo.png");
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cookie.content-image{
+  background-image: url("../images/cookie.png");
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.newsBites span.bite{
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width:100%;
+  height:350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
 }
-.cat{
-  background-image: url("../images/cat ceo.png");
-  height:300px;
-  text-align: center;
+.end-nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+footer span.title {
+    display: flex;
+    display: inline-block;
+    padding-right: 25px;
+    border-right: 2px solid white;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
